@@ -1,4 +1,4 @@
-<x-layouts.web::index title="Hazen Public Space">
+<x-layouts.web title="Hazen Public Space">
     <div class="flex-1 flex flex-col items-center justify-center p-8 text-center">
         <h1 class="text-4xl font-extrabold tracking-tight text-slate-900">
             Hazen Public Space (Laravel)
@@ -7,4 +7,4 @@
             Halaman landing page publik dengan struktur modular domain.
         </p>
     </div>
-</x-layouts.web::index>
+</x-layouts.web>

@@ -1,0 +1,17 @@
+{
+  "name": "lab-agnostic-dashboard",
+  "private": true,
+  "workspaces": [
+    "next-dashboard"
+  ],
+  "scripts": {
+    "setup:install": "pnpm --dir next-dashboard install && cd laravel-dashboard && composer install && npm install",
+    "dev:next": "pnpm --dir next-dashboard dev",
+    "dev:laravel": "cd laravel-dashboard && php artisan serve",
+    "dev:vite": "cd laravel-dashboard && npm run dev",
+    "dev": "concurrently \"npm run dev:next\" \"npm run dev:laravel\" \"npm run dev:vite\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

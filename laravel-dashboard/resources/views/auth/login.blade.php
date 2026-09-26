@@ -1,4 +1,4 @@
-<x-layouts.auth::index title="Login Hazen">
+<x-layouts.auth title="Login Hazen">
     <div class="space-y-6">
         <div>
             <h2 class="text-2xl font-bold text-slate-900 text-center">Sign In</h2>
@@ -19,4 +19,4 @@
             </button>
         </form>
     </div>
-</x-layouts.auth::index>
+</x-layouts.auth>
