@@ -1,0 +1,18 @@
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.production
+
+# Build, Cache & Logs
+**/.next/
+**/dist/
+**/build/
+**/storage/*.key
+**/bootstrap/cache/*
+**/npm-debug.log*
+**/pnpm-debug.log*
+.DS_Store
