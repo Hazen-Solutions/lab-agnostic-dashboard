@@ -1,0 +1,3 @@
+<header class="h-16 bg-white border-b flex items-center px-6 font-semibold text-slate-800">
+    Header Dashboard (Laravel)
+</header>
