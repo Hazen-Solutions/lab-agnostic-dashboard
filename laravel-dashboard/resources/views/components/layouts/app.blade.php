@@ -7,7 +7,6 @@
 
     <title>{{ $title ?? 'Hazen Lab' }}</title>
 
-    <!-- Tailwind CSS Lokal via Vite (Aman Offline) -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="min-h-full flex flex-col bg-slate-50 text-slate-900 font-sans">
